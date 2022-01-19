@@ -25,3 +25,18 @@ body {
 .icon {
     font-size: 4rem;
 }
+
+/* MY CODE */
+
+.emojis {
+    display: grid;
+    grid-template-columns: repeat(2, 417px);
+    gap: 10px
+}
+.emoji {
+    display: flex;
+    flex-direction: column;
+}
+.icon {
+    order: -1;
+}
