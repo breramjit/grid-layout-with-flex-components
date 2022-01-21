@@ -31,7 +31,7 @@ body {
 .emojis {
     display: grid;
     grid-template-columns: repeat(2, 417px);
-    gap: 10px
+    gap: 10px;
 }
 .emoji {
     display: flex;
@@ -39,4 +39,14 @@ body {
 }
 .icon {
     order: -1;
+}
+.emoji a {
+    align-items: baseline;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+}
+.emoji a {
+    display: flex;
 }
