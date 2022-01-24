@@ -50,3 +50,11 @@ body {
 .emoji a {
     display: flex;
 }
+p {
+    display: flex;
+    flex-grow: 10;
+}
+a {
+    display: flex;
+    flex-grow: 1;
+}
